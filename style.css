@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -25,18 +29,22 @@ header {
 }
 
 .full_table {
+  max-width: 100%;
   width: 100%;
+  table-layout: fixed;
+  word-break: break-word;
 }
 
 .main-table {
   margin: auto;
-  width: 80%;
-  height: 400px;
+  width: 70%;
+  height: 350px;
   margin-bottom: 50px;
+  table-layout: fixed;
 }
 
-.main-table_margin {
-  margin-bottom: 5px;
+.stack-spacing {
+  margin-bottom: 15px;
 }
 
 
